@@ -135,3 +135,9 @@ class ROI():
         annual_cf = self.diff * 12
         finalROI = (annual_cf / self.total_investment)
         print(f"Your ROI rate comes out to... {finalROI}%")
+a = ROI("Amma")
+a.income()
+a.expenses()
+a.cashFlow()
+a.cash_on_cash()
+a.calcROI()
